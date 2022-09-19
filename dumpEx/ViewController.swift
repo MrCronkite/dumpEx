@@ -33,7 +33,11 @@ class ViewController: UIViewController {
     }
     
     @objc func showView(){
-        print("Settings")
+      let storyboard = UIStoryboard(name: "SettingsViewController", bundle:  nil)
+      guard  let settingsVC = storyboard.instantiateViewController(withIdentifier: "SettingsViewController") as? SettingsViewController else { return}
+       present(settingsVC, animated: true, completion: nil)
+        
+        
     }
 
 
