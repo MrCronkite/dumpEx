@@ -33,6 +33,7 @@ class SettingsViewController: UIViewController {
 
     @IBAction func saveSettings(_ sender: Any) {
         print(myDatePicker.date)
+        print(mouthField.text!)
     }
     
     @IBAction func setData(_ sender: Any) {
