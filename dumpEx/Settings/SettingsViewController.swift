@@ -14,8 +14,8 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var dataButton: UIButton!
     @IBOutlet weak var dataLable: UILabel!
     @IBOutlet weak var mouthField: UITextField!
-    @IBOutlet weak var expensesField: UITextField!
     @IBOutlet weak var currencyField: UITextField!
+    @IBOutlet weak var expensesField: UITextField!
     
     @IBOutlet weak var buttonDone: UIButton!
     
@@ -33,7 +33,9 @@ class SettingsViewController: UIViewController {
 
     @IBAction func saveSettings(_ sender: Any) {
         print(myDatePicker.date)
-        print(mouthField.text!)
+        print(mouthField.text ?? 0)
+        print(expensesField.text ?? 0)
+        print(currencyField.text ?? 0)
     }
     
     @IBAction func setData(_ sender: Any) {
