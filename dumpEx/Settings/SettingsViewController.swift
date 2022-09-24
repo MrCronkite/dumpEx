@@ -26,6 +26,9 @@ class SettingsViewController: UIViewController {
         myDatePicker.preferredDatePickerStyle = .wheels
         myDatePicker.timeZone = TimeZone.current
         myDatePicker.frame = CGRect(x: 0, y: 0, width: 250 , height: 150)
+        
+        mouthField.delegate = self
+        expensesField.delegate = self
     }
     
   
@@ -55,5 +58,18 @@ class SettingsViewController: UIViewController {
         alertController.addAction(somethingAction)
         alertController.addAction(cancelAction)
         self.present(alertController, animated: true, completion:{})
+    }
+}
+
+
+extension SettingsViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == mouthField{
+            expensesField.becomeFirstResponder()
+        } else {
+            textField.resignFirstResponder()
+        }
+        return true
     }
 }
