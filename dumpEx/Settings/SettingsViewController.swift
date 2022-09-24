@@ -38,6 +38,10 @@ class SettingsViewController: UIViewController {
         print(currencyField.text ?? 0)
     }
     
+    @IBAction func currencyActionField(_ sender: Any) {
+        print("выбрать цену")
+    }
+    
     @IBAction func setData(_ sender: Any) {
         let alertController = UIAlertController(title: "\n\n\n\n\n\n\n\n", message: nil, preferredStyle: .actionSheet)
         alertController.view.addSubview(myDatePicker)
