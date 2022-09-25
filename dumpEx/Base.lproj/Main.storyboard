@@ -35,8 +35,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f5e-ol-OHj">
-                                <rect key="frame" x="57" y="171" width="300" height="70"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="f5e-ol-OHj">
+                                <rect key="frame" x="47" y="171" width="320" height="70"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="bDY-xE-rA4">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="70"/>
@@ -67,7 +67,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="F2t-t1-Ebv">
-                                        <rect key="frame" x="100" y="0.0" width="100" height="70"/>
+                                        <rect key="frame" x="110" y="0.0" width="100" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhG-lf-cI0">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="33"/>
@@ -88,20 +88,23 @@
                                         </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWe-FG-sH2">
-                                        <rect key="frame" x="200" y="0.0" width="100" height="70"/>
+                                        <rect key="frame" x="220" y="0.0" width="100" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="88C-2n-EZn"/>
-                                            <constraint firstAttribute="width" constant="100" id="e0v-zE-HHA"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="e0v-zE-HHA"/>
                                         </constraints>
                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="gearshape" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="openSettingsView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iLQ-fE-n28"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="99C-7O-yN0"/>
+                                    <constraint firstAttribute="width" constant="320" id="99C-7O-yN0"/>
                                     <constraint firstAttribute="height" constant="70" id="BXH-OS-kll"/>
                                 </constraints>
                             </stackView>
@@ -113,10 +116,18 @@
                             <constraint firstItem="n1I-gN-4sv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hh2-3T-ef2"/>
                             <constraint firstItem="f5e-ol-OHj" firstAttribute="top" secondItem="9BB-Ls-MPh" secondAttribute="bottom" constant="20.5" id="OYJ-lT-BNw"/>
                             <constraint firstItem="9BB-Ls-MPh" firstAttribute="top" secondItem="n1I-gN-4sv" secondAttribute="bottom" constant="5" id="Oge-8P-Ikm"/>
-                            <constraint firstItem="f5e-ol-OHj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eW0-pJ-ipR"/>
+                            <constraint firstItem="f5e-ol-OHj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YOi-18-YdB"/>
                             <constraint firstItem="9BB-Ls-MPh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xUb-Y7-Vgm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="brakeTimeLabel" destination="9BB-Ls-MPh" id="S75-2B-SMD"/>
+                        <outlet property="buttonSettings" destination="OWe-FG-sH2" id="Ckv-vl-Ecu"/>
+                        <outlet property="currencyLabel" destination="IvN-0o-mec" id="i5Y-Ms-oiz"/>
+                        <outlet property="moneyLabel" destination="58Z-WY-xGz" id="Q6t-bC-MA5"/>
+                        <outlet property="stackViewMoney" destination="bDY-xE-rA4" id="z1n-6Z-UsE"/>
+                        <outlet property="stackViewTest" destination="F2t-t1-Ebv" id="Lvr-gX-TCa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
