@@ -39,6 +39,7 @@ class SettingsViewController: UIViewController {
         print(mouthField.text ?? 0)
         print(expensesField.text ?? 0)
         print(currencyField.text ?? 0)
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func currencyActionField(_ sender: Any) {
