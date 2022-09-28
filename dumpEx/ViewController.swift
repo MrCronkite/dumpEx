@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var mainTable: UITableViewCell!
+    
     @IBOutlet weak var brakeTimeLabel: UILabel!
     
     @IBOutlet weak var moneyLabel: UILabel!
