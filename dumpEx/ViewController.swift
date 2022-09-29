@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     let indetifire = "keyCell"
-    let tableCellName = ["раз", "два", "три"]
+    let tableCellName = ["Эмоциональное состояние", "Полезная информация", "Тесты", "Фото Видео", "Помощь"]
     
     @IBOutlet weak var tableViewContent: UITableView!
     @IBOutlet weak var brakeTimeLabel: UILabel!
