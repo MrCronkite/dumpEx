@@ -9,9 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    let indetifire = "keyCell"
+    let tableCellName = ["раз", "два", "три"]
     
-    @IBOutlet weak var mainTable: UITableViewCell!
-    
+    @IBOutlet weak var tableViewContent: UITableView!
     @IBOutlet weak var brakeTimeLabel: UILabel!
     
     @IBOutlet weak var moneyLabel: UILabel!
@@ -44,6 +45,23 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+
+extension ViewController: UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        tableCellName.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableViewContent.dequeueReusableCell(withIdentifier: indetifire, for: indexPath)
+        
+        cell.textLabel?.text = tableCellName[indexPath.row]
+        
+        return cell
+    }
+    
+    
 }
 
 
