@@ -62,8 +62,21 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("hello цщкдв")
+        
+        if indexPath.row == 0 {
+            print("эмоциональное состояние")
+        } else if indexPath.row == 1 {
+            print("полезная информация")
+        } else if indexPath.row == 2 {
+            print("тесты")
+        } else if indexPath.row == 3 {
+            print("фото видео")
+        } else if indexPath.row == 4 {
+            print("помощь")
+        }
+            
     }
+    
     
     
 }
