@@ -64,7 +64,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         if indexPath.row == 0 {
-            print("эмоциональное состояние")
+            let storyboard = UIStoryboard(name: "EmotionalCondition", bundle: nil)
+            guard let emotionalVC = storyboard.instantiateViewController(withIdentifier: "EmotionalCondition") as?
+                    EmotionalViewController else { return }
+            present(emotionalVC, animated: true, completion: nil)
         } else if indexPath.row == 1 {
             print("полезная информация")
         } else if indexPath.row == 2 {
