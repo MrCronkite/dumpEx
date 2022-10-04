@@ -69,7 +69,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
                     EmotionalConditionViewController else { return }
             present(emotionalVC, animated: true, completion: nil)
         } else if indexPath.row == 1 {
-            print("полезная информация")
+            let storyboard = UIStoryboard(name: "UsefulInformation", bundle: nil)
+            guard let usefulInfoVC = storyboard.instantiateViewController(withIdentifier: "UsefulInformation") as?
+                    UsefulInformationViewController else {return}
+            present(usefulInfoVC, animated: true, completion: nil)
         } else if indexPath.row == 2 {
             print("тесты")
         } else if indexPath.row == 3 {
