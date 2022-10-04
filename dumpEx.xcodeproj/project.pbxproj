@@ -16,7 +16,7 @@
 		B2CE6BBD28D2515800526D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BBC28D2515800526D4B /* Assets.xcassets */; };
 		B2CE6BC028D2515800526D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BBE28D2515800526D4B /* LaunchScreen.storyboard */; };
 		B2EF664C28EB603400769D53 /* EmotionalCondition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */; };
-		B2EF664E28EB606D00769D53 /* EmotionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF664D28EB606D00769D53 /* EmotionalViewController.swift */; };
+		B2EF664E28EB606D00769D53 /* EmotionalConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		B2CE6BBF28D2515800526D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2CE6BC128D2515800526D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmotionalCondition.storyboard; sourceTree = "<group>"; };
-		B2EF664D28EB606D00769D53 /* EmotionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalViewController.swift; sourceTree = "<group>"; };
+		B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalConditionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,7 @@
 				B229A3A928EB5E980004059C /* SupportFilles */,
 				B2B2607028D8DDD100ED6C85 /* Settings */,
 				B2CE6BB728D2515600526D4B /* ViewController.swift */,
+				B2EF665228ECB30200769D53 /* InfoPage */,
 				B2CE6BB928D2515600526D4B /* Main.storyboard */,
 				B2EF665028EB624600769D53 /* EmotionalCondition */,
 				B2CE6BC128D2515800526D4B /* Info.plist */,
@@ -98,9 +99,16 @@
 			isa = PBXGroup;
 			children = (
 				B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */,
-				B2EF664D28EB606D00769D53 /* EmotionalViewController.swift */,
+				B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */,
 			);
 			path = EmotionalCondition;
+			sourceTree = "<group>";
+		};
+		B2EF665228ECB30200769D53 /* InfoPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InfoPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2CE6BB828D2515600526D4B /* ViewController.swift in Sources */,
-				B2EF664E28EB606D00769D53 /* EmotionalViewController.swift in Sources */,
+				B2EF664E28EB606D00769D53 /* EmotionalConditionViewController.swift in Sources */,
 				B2CE6BB428D2515600526D4B /* AppDelegate.swift in Sources */,
 				B2CE6BB628D2515600526D4B /* SceneDelegate.swift in Sources */,
 				B2B2607628D8E71B00ED6C85 /* SettingsViewController.swift in Sources */,

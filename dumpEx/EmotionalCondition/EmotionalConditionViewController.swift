@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EmotionalViewController: UIViewController {
+class EmotionalConditionViewController: UIViewController {
 
     
     override func viewDidLoad() {
