@@ -82,7 +82,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
             present(testsPageVC, animated: true, completion: nil)
             
         } else if indexPath.row == 3 {
-            print("фото видео")
+            let storyboard = UIStoryboard(name: "PhotoVideoPage", bundle: nil)
+            guard let photoVideoVC = storyboard.instantiateViewController(withIdentifier: "PhotoVideo") as?
+                    PhotoVideoViewController else { return }
+            present(photoVideoVC, animated: true, completion: nil)
+            
         } else if indexPath.row == 4 {
             print("помощь")
         }

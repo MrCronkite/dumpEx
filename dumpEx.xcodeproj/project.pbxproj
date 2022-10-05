@@ -18,6 +18,7 @@
 		B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9228EDF43C009B009D /* TestsPage.storyboard */; };
 		B2E69B9528EDF450009B009D /* TestsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E69B9428EDF450009B009D /* TestsPageViewController.swift */; };
 		B2E69B9828EDF5F9009B009D /* PhotoVideoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */; };
+		B2E69B9A28EDF623009B009D /* PhotoVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E69B9928EDF623009B009D /* PhotoVideoViewController.swift */; };
 		B2EF664C28EB603400769D53 /* EmotionalCondition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */; };
 		B2EF664E28EB606D00769D53 /* EmotionalConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */; };
 		B2EF665428ECB38400769D53 /* UsefulInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EF665328ECB38400769D53 /* UsefulInformation.storyboard */; };
@@ -38,6 +39,7 @@
 		B2E69B9228EDF43C009B009D /* TestsPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestsPage.storyboard; sourceTree = "<group>"; };
 		B2E69B9428EDF450009B009D /* TestsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsPageViewController.swift; sourceTree = "<group>"; };
 		B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoVideoPage.storyboard; sourceTree = "<group>"; };
+		B2E69B9928EDF623009B009D /* PhotoVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVideoViewController.swift; sourceTree = "<group>"; };
 		B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmotionalCondition.storyboard; sourceTree = "<group>"; };
 		B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalConditionViewController.swift; sourceTree = "<group>"; };
 		B2EF665328ECB38400769D53 /* UsefulInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsefulInformation.storyboard; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */,
+				B2E69B9928EDF623009B009D /* PhotoVideoViewController.swift */,
 			);
 			path = PhotoVideoPage;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E69B9528EDF450009B009D /* TestsPageViewController.swift in Sources */,
+				B2E69B9A28EDF623009B009D /* PhotoVideoViewController.swift in Sources */,
 				B2CE6BB828D2515600526D4B /* ViewController.swift in Sources */,
 				B2EF664E28EB606D00769D53 /* EmotionalConditionViewController.swift in Sources */,
 				B2CE6BB428D2515600526D4B /* AppDelegate.swift in Sources */,
