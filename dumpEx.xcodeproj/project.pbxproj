@@ -17,6 +17,7 @@
 		B2CE6BC028D2515800526D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BBE28D2515800526D4B /* LaunchScreen.storyboard */; };
 		B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9228EDF43C009B009D /* TestsPage.storyboard */; };
 		B2E69B9528EDF450009B009D /* TestsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E69B9428EDF450009B009D /* TestsPageViewController.swift */; };
+		B2E69B9828EDF5F9009B009D /* PhotoVideoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */; };
 		B2EF664C28EB603400769D53 /* EmotionalCondition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */; };
 		B2EF664E28EB606D00769D53 /* EmotionalConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */; };
 		B2EF665428ECB38400769D53 /* UsefulInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EF665328ECB38400769D53 /* UsefulInformation.storyboard */; };
@@ -36,6 +37,7 @@
 		B2CE6BC128D2515800526D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2E69B9228EDF43C009B009D /* TestsPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestsPage.storyboard; sourceTree = "<group>"; };
 		B2E69B9428EDF450009B009D /* TestsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsPageViewController.swift; sourceTree = "<group>"; };
+		B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoVideoPage.storyboard; sourceTree = "<group>"; };
 		B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmotionalCondition.storyboard; sourceTree = "<group>"; };
 		B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalConditionViewController.swift; sourceTree = "<group>"; };
 		B2EF665328ECB38400769D53 /* UsefulInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsefulInformation.storyboard; sourceTree = "<group>"; };
@@ -96,10 +98,11 @@
 				B2B2607028D8DDD100ED6C85 /* Settings */,
 				B2EF665228ECB30200769D53 /* InfoPage */,
 				B2E69B9028EDF387009B009D /* TestsPage */,
+				B2E69B9628EDF472009B009D /* HelpPage */,
+				B2E69B9128EDF3C9009B009D /* PhotoVideoPage */,
+				B2EF665028EB624600769D53 /* EmotionalConditionPage */,
 				B2CE6BB728D2515600526D4B /* ViewController.swift */,
 				B2CE6BB928D2515600526D4B /* Main.storyboard */,
-				B2E69B9128EDF3C9009B009D /* PhotoVideoPage */,
-				B2EF665028EB624600769D53 /* EmotionalCondition */,
 				B2CE6BC128D2515800526D4B /* Info.plist */,
 			);
 			path = dumpEx;
@@ -117,17 +120,25 @@
 		B2E69B9128EDF3C9009B009D /* PhotoVideoPage */ = {
 			isa = PBXGroup;
 			children = (
+				B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */,
 			);
 			path = PhotoVideoPage;
 			sourceTree = "<group>";
 		};
-		B2EF665028EB624600769D53 /* EmotionalCondition */ = {
+		B2E69B9628EDF472009B009D /* HelpPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelpPage;
+			sourceTree = "<group>";
+		};
+		B2EF665028EB624600769D53 /* EmotionalConditionPage */ = {
 			isa = PBXGroup;
 			children = (
 				B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */,
 				B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */,
 			);
-			path = EmotionalCondition;
+			path = EmotionalConditionPage;
 			sourceTree = "<group>";
 		};
 		B2EF665228ECB30200769D53 /* InfoPage */ = {
@@ -203,6 +214,7 @@
 				B2EF664C28EB603400769D53 /* EmotionalCondition.storyboard in Resources */,
 				B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */,
 				B2EF665428ECB38400769D53 /* UsefulInformation.storyboard in Resources */,
+				B2E69B9828EDF5F9009B009D /* PhotoVideoPage.storyboard in Resources */,
 				B2CE6BBB28D2515600526D4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -68,13 +68,19 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
             guard let emotionalVC = storyboard.instantiateViewController(withIdentifier: "EmotionalCondition") as?
                     EmotionalConditionViewController else { return }
             present(emotionalVC, animated: true, completion: nil)
+            
         } else if indexPath.row == 1 {
             let storyboard = UIStoryboard(name: "UsefulInformation", bundle: nil)
             guard let usefulInfoVC = storyboard.instantiateViewController(withIdentifier: "UsefulInformation") as?
                     UsefulInformationViewController else {return}
             present(usefulInfoVC, animated: true, completion: nil)
+            
         } else if indexPath.row == 2 {
-            print("тесты")
+            let storyboard = UIStoryboard(name: "TestsPage", bundle: nil)
+            guard let testsPageVC = storyboard.instantiateViewController(withIdentifier: "TestsPage") as?
+                    TestsPageViewController else { return }
+            present(testsPageVC, animated: true, completion: nil)
+            
         } else if indexPath.row == 3 {
             print("фото видео")
         } else if indexPath.row == 4 {
