@@ -15,6 +15,8 @@
 		B2CE6BBB28D2515600526D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BB928D2515600526D4B /* Main.storyboard */; };
 		B2CE6BBD28D2515800526D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BBC28D2515800526D4B /* Assets.xcassets */; };
 		B2CE6BC028D2515800526D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BBE28D2515800526D4B /* LaunchScreen.storyboard */; };
+		B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9228EDF43C009B009D /* TestsPage.storyboard */; };
+		B2E69B9528EDF450009B009D /* TestsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E69B9428EDF450009B009D /* TestsPageViewController.swift */; };
 		B2EF664C28EB603400769D53 /* EmotionalCondition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */; };
 		B2EF664E28EB606D00769D53 /* EmotionalConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */; };
 		B2EF665428ECB38400769D53 /* UsefulInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EF665328ECB38400769D53 /* UsefulInformation.storyboard */; };
@@ -32,6 +34,8 @@
 		B2CE6BBC28D2515800526D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2CE6BBF28D2515800526D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2CE6BC128D2515800526D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E69B9228EDF43C009B009D /* TestsPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestsPage.storyboard; sourceTree = "<group>"; };
+		B2E69B9428EDF450009B009D /* TestsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsPageViewController.swift; sourceTree = "<group>"; };
 		B2EF664B28EB603400769D53 /* EmotionalCondition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmotionalCondition.storyboard; sourceTree = "<group>"; };
 		B2EF664D28EB606D00769D53 /* EmotionalConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalConditionViewController.swift; sourceTree = "<group>"; };
 		B2EF665328ECB38400769D53 /* UsefulInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsefulInformation.storyboard; sourceTree = "<group>"; };
@@ -91,12 +95,30 @@
 				B229A3A928EB5E980004059C /* SupportFilles */,
 				B2B2607028D8DDD100ED6C85 /* Settings */,
 				B2EF665228ECB30200769D53 /* InfoPage */,
-				B2CE6BB928D2515600526D4B /* Main.storyboard */,
+				B2E69B9028EDF387009B009D /* TestsPage */,
 				B2CE6BB728D2515600526D4B /* ViewController.swift */,
+				B2CE6BB928D2515600526D4B /* Main.storyboard */,
+				B2E69B9128EDF3C9009B009D /* PhotoVideoPage */,
 				B2EF665028EB624600769D53 /* EmotionalCondition */,
 				B2CE6BC128D2515800526D4B /* Info.plist */,
 			);
 			path = dumpEx;
+			sourceTree = "<group>";
+		};
+		B2E69B9028EDF387009B009D /* TestsPage */ = {
+			isa = PBXGroup;
+			children = (
+				B2E69B9228EDF43C009B009D /* TestsPage.storyboard */,
+				B2E69B9428EDF450009B009D /* TestsPageViewController.swift */,
+			);
+			path = TestsPage;
+			sourceTree = "<group>";
+		};
+		B2E69B9128EDF3C9009B009D /* PhotoVideoPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoVideoPage;
 			sourceTree = "<group>";
 		};
 		B2EF665028EB624600769D53 /* EmotionalCondition */ = {
@@ -179,6 +201,7 @@
 				B2CE6BC028D2515800526D4B /* LaunchScreen.storyboard in Resources */,
 				B2CE6BBD28D2515800526D4B /* Assets.xcassets in Resources */,
 				B2EF664C28EB603400769D53 /* EmotionalCondition.storyboard in Resources */,
+				B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */,
 				B2EF665428ECB38400769D53 /* UsefulInformation.storyboard in Resources */,
 				B2CE6BBB28D2515600526D4B /* Main.storyboard in Resources */,
 			);
@@ -191,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E69B9528EDF450009B009D /* TestsPageViewController.swift in Sources */,
 				B2CE6BB828D2515600526D4B /* ViewController.swift in Sources */,
 				B2EF664E28EB606D00769D53 /* EmotionalConditionViewController.swift in Sources */,
 				B2CE6BB428D2515600526D4B /* AppDelegate.swift in Sources */,
