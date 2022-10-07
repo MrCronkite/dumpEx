@@ -9,10 +9,17 @@ import UIKit
 
 class EmotionalConditionViewController: UIViewController {
 
+    @IBOutlet weak var tableContainer: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
     }
+}
+
+extension ViewController: UITableViewDelegate, UITableViewDataSource{
+    
+    
+    
 }
