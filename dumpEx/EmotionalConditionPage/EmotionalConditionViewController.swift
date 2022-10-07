@@ -8,6 +8,9 @@
 import UIKit
 
 class EmotionalConditionViewController: UIViewController {
+    
+    let indetifire = "keyCell"
+    let tableCellName = ["Эмоциональное состояние", "1212я", "Т12ты", "Фото Видео", "Помощь"]
 
     @IBOutlet weak var tableContainer: UITableView!
     
@@ -18,8 +21,20 @@ class EmotionalConditionViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource{
+extension EmotionalConditionViewController: UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        tableCellName.count
+    }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: indetifire, for: indexPath)
+        
+        cell.textLabel?.text = tableCellName[indexPath.row]
+        
+        return cell
+    }
+    
+  
     
     
 }
