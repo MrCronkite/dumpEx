@@ -15,6 +15,8 @@
 		B2CE6BBB28D2515600526D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BB928D2515600526D4B /* Main.storyboard */; };
 		B2CE6BBD28D2515800526D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BBC28D2515800526D4B /* Assets.xcassets */; };
 		B2CE6BC028D2515800526D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BBE28D2515800526D4B /* LaunchScreen.storyboard */; };
+		B2CFE1E828F487A00089128E /* HelpPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CFE1E728F487A00089128E /* HelpPage.storyboard */; };
+		B2CFE1EA28F487BA0089128E /* HelpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CFE1E928F487BA0089128E /* HelpPageViewController.swift */; };
 		B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9228EDF43C009B009D /* TestsPage.storyboard */; };
 		B2E69B9528EDF450009B009D /* TestsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E69B9428EDF450009B009D /* TestsPageViewController.swift */; };
 		B2E69B9828EDF5F9009B009D /* PhotoVideoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */; };
@@ -36,6 +38,8 @@
 		B2CE6BBC28D2515800526D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2CE6BBF28D2515800526D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2CE6BC128D2515800526D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CFE1E728F487A00089128E /* HelpPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelpPage.storyboard; sourceTree = "<group>"; };
+		B2CFE1E928F487BA0089128E /* HelpPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPageViewController.swift; sourceTree = "<group>"; };
 		B2E69B9228EDF43C009B009D /* TestsPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestsPage.storyboard; sourceTree = "<group>"; };
 		B2E69B9428EDF450009B009D /* TestsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsPageViewController.swift; sourceTree = "<group>"; };
 		B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoVideoPage.storyboard; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 		B2E69B9628EDF472009B009D /* HelpPage */ = {
 			isa = PBXGroup;
 			children = (
+				B2CFE1E728F487A00089128E /* HelpPage.storyboard */,
+				B2CFE1E928F487BA0089128E /* HelpPageViewController.swift */,
 			);
 			path = HelpPage;
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 				B2CE6BBD28D2515800526D4B /* Assets.xcassets in Resources */,
 				B2EF664C28EB603400769D53 /* EmotionalCondition.storyboard in Resources */,
 				B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */,
+				B2CFE1E828F487A00089128E /* HelpPage.storyboard in Resources */,
 				B2EF665428ECB38400769D53 /* UsefulInformation.storyboard in Resources */,
 				B2E69B9828EDF5F9009B009D /* PhotoVideoPage.storyboard in Resources */,
 				B2CE6BBB28D2515600526D4B /* Main.storyboard in Resources */,
@@ -232,6 +239,7 @@
 				B2E69B9528EDF450009B009D /* TestsPageViewController.swift in Sources */,
 				B2E69B9A28EDF623009B009D /* PhotoVideoViewController.swift in Sources */,
 				B2CE6BB828D2515600526D4B /* ViewController.swift in Sources */,
+				B2CFE1EA28F487BA0089128E /* HelpPageViewController.swift in Sources */,
 				B2EF664E28EB606D00769D53 /* EmotionalConditionViewController.swift in Sources */,
 				B2CE6BB428D2515600526D4B /* AppDelegate.swift in Sources */,
 				B2EF665628ECB3A400769D53 /* UsefulInformationViewController.swift in Sources */,

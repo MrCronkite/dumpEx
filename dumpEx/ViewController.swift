@@ -88,10 +88,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
             present(photoVideoVC, animated: true, completion: nil)
             
         } else if indexPath.row == 4 {
-            let storyboard = UIStoryboard(name: "PhotoVideoPage", bundle: nil)
-            guard let photoVideoVC = storyboard.instantiateViewController(withIdentifier: "PhotoVideo") as?
-                    PhotoVideoViewController else { return }
-            present(photoVideoVC, animated: true, completion: nil)
+            let storyboard = UIStoryboard(name: "HelpPage", bundle: nil)
+            guard let helpPageVC = storyboard.instantiateViewController(withIdentifier: "HelpPage") as?
+                    HelpPageViewController else { return }
+            present(helpPageVC, animated: true, completion: nil)
         }
             
     }
