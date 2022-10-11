@@ -39,8 +39,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func openSettingsView(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "SettingsViewController", bundle:  nil)
-        guard  let settingsVC = storyboard.instantiateViewController(withIdentifier: "SettingsViewController") as? SettingsViewController else { return}
+        let storyboard = UIStoryboard(name: "Settings", bundle:  nil)
+        guard  let settingsVC = storyboard.instantiateViewController(withIdentifier: "Settings") as? SettingsViewController else { return}
          present(settingsVC, animated: true, completion: nil)
     }
 
