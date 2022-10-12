@@ -32,6 +32,9 @@
                                         <buttonConfiguration key="configuration" style="plain" image="calendar" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="52"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="setData:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Lsh-V9-qLu"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="2022.10.12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlI-pj-NEm">
                                         <rect key="frame" x="0.0" y="84" width="150" height="16"/>
@@ -55,6 +58,9 @@
                             <constraint firstItem="vjl-F8-ilK" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="qja-Ws-GqL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dataLabel" destination="HlI-pj-NEm" id="ABW-No-35L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
