@@ -50,7 +50,6 @@ class SettingsViewController: UIViewController {
             formater.timeZone = TimeZone.current
             self.dataLabel.text = formater.string(from: self.myDatePicker.date)
         }
-        
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         alertController.addAction(somethingAction)
         alertController.addAction(cancelAction)
