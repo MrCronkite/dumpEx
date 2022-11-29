@@ -27,13 +27,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         stackViewMoney.layer.cornerRadius = 10
-        stackViewMoney.backgroundColor = .gray
+        stackViewMoney.backgroundColor = #colorLiteral(red: 0.182094425, green: 0.1586580873, blue: 0.3450062275, alpha: 1)
+        
         
         stackViewTest.layer.cornerRadius = 10
-        stackViewTest.backgroundColor = .gray
+        stackViewTest.backgroundColor =  #colorLiteral(red: 0.182094425, green: 0.1586580873, blue: 0.3450062275, alpha: 1)
         
-        buttonSettings.backgroundColor = .gray
+        buttonSettings.backgroundColor = #colorLiteral(red: 0.182094425, green: 0.1586580873, blue: 0.3450062275, alpha: 1)
         buttonSettings.layer.cornerRadius = 10
+        
+        tableViewContent.layer.cornerRadius = 20
+        
         
     }
     
