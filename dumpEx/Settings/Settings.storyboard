@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата раставания" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncT-Oo-z5N">
-                                <rect key="frame" x="140" y="64" width="134.5" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="введите примерную дату расставания " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncT-Oo-z5N">
+                                <rect key="frame" x="51" y="68" width="312" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vjl-F8-ilK">
-                                <rect key="frame" x="132" y="114.5" width="150" height="100"/>
+                                <rect key="frame" x="132" y="118.5" width="150" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UzS-ts-mZC">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="76"/>
@@ -48,22 +49,6 @@
                                     <constraint firstAttribute="height" constant="100" id="ob7-xm-msu"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nen ,eltn ytgjyznys ntcnrn dcvdcdzczxc dvxzc" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9TT-2b-hVs">
-                                <rect key="frame" x="20" y="315" width="216" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1H6-EL-av6">
-                                <rect key="frame" x="254" y="315" width="129" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="135" id="Srj-oc-Yda"/>
-                                    <constraint firstAttribute="height" constant="35" id="X8J-7U-raK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" textContentType="cc-number"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iq-eB-6Po">
                                 <rect key="frame" x="181" y="595" width="54" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -71,13 +56,13 @@
                                 <buttonConfiguration key="configuration" style="plain" title="save"/>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <viewLayoutGuide key="safeArea" id="EC8-oT-eEn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vjl-F8-ilK" firstAttribute="top" secondItem="ncT-Oo-z5N" secondAttribute="bottom" constant="30" id="09H-a2-aYH"/>
-                            <constraint firstItem="ncT-Oo-z5N" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="5Dd-am-eeg"/>
-                            <constraint firstItem="ncT-Oo-z5N" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="khy-2P-Olv"/>
-                            <constraint firstItem="vjl-F8-ilK" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="qja-Ws-GqL"/>
+                            <constraint firstItem="ncT-Oo-z5N" firstAttribute="centerX" secondItem="EC8-oT-eEn" secondAttribute="centerX" id="5Dd-am-eeg"/>
+                            <constraint firstItem="ncT-Oo-z5N" firstAttribute="top" secondItem="EC8-oT-eEn" secondAttribute="top" constant="20" id="khy-2P-Olv"/>
+                            <constraint firstItem="vjl-F8-ilK" firstAttribute="centerX" secondItem="EC8-oT-eEn" secondAttribute="centerX" id="qja-Ws-GqL"/>
                         </constraints>
                     </view>
                     <connections>
@@ -90,7 +75,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="calendar" catalog="system" width="128" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
