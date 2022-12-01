@@ -13,14 +13,27 @@ class SettingsViewController: UIViewController {
     
    @IBOutlet weak var dataLabel: UILabel!
     
-    
+   @IBOutlet weak var headerLabel: UILabel!
+   @IBOutlet weak var ageStack: UIStackView!
+   @IBOutlet weak var moneyStack: UIStackView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         myDatePicker.datePickerMode = .date
         myDatePicker.preferredDatePickerStyle = .wheels
         myDatePicker.timeZone = TimeZone.current
         myDatePicker.frame = CGRect(x: 0, y: 0, width: 250 , height: 150)
+        
+        headerLabel.layer.cornerRadius = 10
+        headerLabel.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+        
+        ageStack.layer.cornerRadius = 10
+        ageStack.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+       
+        moneyStack.layer.cornerRadius = 10
+        moneyStack.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+        
 
 //        mouthField.delegate = self
 //        expensesField.delegate = self

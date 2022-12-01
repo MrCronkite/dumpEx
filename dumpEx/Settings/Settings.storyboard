@@ -92,6 +92,11 @@
                             <constraint firstItem="5iq-eB-6Po" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="yzf-1y-7wh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageStack" destination="MjH-vQ-3jE" id="psO-Dl-xQv"/>
+                        <outlet property="headerLabel" destination="wPp-tG-UKN" id="PPe-LV-dcb"/>
+                        <outlet property="moneyStack" destination="azt-ae-tff" id="mpL-1S-3e2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
