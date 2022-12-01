@@ -17,6 +17,8 @@ class SettingsViewController: UIViewController {
    @IBOutlet weak var ageStack: UIStackView!
    @IBOutlet weak var moneyStack: UIStackView!
    
+    @IBOutlet weak var ageField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,15 +27,16 @@ class SettingsViewController: UIViewController {
         myDatePicker.timeZone = TimeZone.current
         myDatePicker.frame = CGRect(x: 0, y: 0, width: 250 , height: 150)
         
-       
+        
         ageStack.layer.cornerRadius = 10
         ageStack.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
        
+        
         moneyStack.layer.cornerRadius = 10
         moneyStack.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
         
 
-//        mouthField.delegate = self
+  //        ageField.delegate = self
 //        expensesField.delegate = self
     }
     
@@ -72,7 +75,7 @@ class SettingsViewController: UIViewController {
 //extension SettingsViewController: UITextFieldDelegate {
 //
 //    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-//        if textField == mouthField{
+//        if textField == ageField{
 //            expensesField.becomeFirstResponder()
 //        } else {
 //            textField.resignFirstResponder()
