@@ -16,7 +16,7 @@
 		B2CE6BC028D2515800526D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CE6BBE28D2515800526D4B /* LaunchScreen.storyboard */; };
 		B2CFE1E828F487A00089128E /* HelpPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CFE1E728F487A00089128E /* HelpPage.storyboard */; };
 		B2CFE1EA28F487BA0089128E /* HelpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CFE1E928F487BA0089128E /* HelpPageViewController.swift */; };
-		B2E29B6928F5EABD00E0C7AE /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E29B6828F5EABD00E0C7AE /* Settings.storyboard */; };
+		B2D641C42939103200718074 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D641C32939103200718074 /* Settings.storyboard */; };
 		B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9228EDF43C009B009D /* TestsPage.storyboard */; };
 		B2E69B9528EDF450009B009D /* TestsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E69B9428EDF450009B009D /* TestsPageViewController.swift */; };
 		B2E69B9828EDF5F9009B009D /* PhotoVideoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */; };
@@ -39,7 +39,7 @@
 		B2CE6BC128D2515800526D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CFE1E728F487A00089128E /* HelpPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelpPage.storyboard; sourceTree = "<group>"; };
 		B2CFE1E928F487BA0089128E /* HelpPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPageViewController.swift; sourceTree = "<group>"; };
-		B2E29B6828F5EABD00E0C7AE /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		B2D641C32939103200718074 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = ../../../../../.Trash/Settings.storyboard; sourceTree = "<group>"; };
 		B2E69B9228EDF43C009B009D /* TestsPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestsPage.storyboard; sourceTree = "<group>"; };
 		B2E69B9428EDF450009B009D /* TestsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsPageViewController.swift; sourceTree = "<group>"; };
 		B2E69B9728EDF5F9009B009D /* PhotoVideoPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoVideoPage.storyboard; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				B2B2607528D8E71B00ED6C85 /* SettingsViewController.swift */,
-				B2E29B6828F5EABD00E0C7AE /* Settings.storyboard */,
+				B2D641C32939103200718074 /* Settings.storyboard */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 				B2E69B9328EDF43C009B009D /* TestsPage.storyboard in Resources */,
 				B2CFE1E828F487A00089128E /* HelpPage.storyboard in Resources */,
 				B2EF665428ECB38400769D53 /* UsefulInformation.storyboard in Resources */,
-				B2E29B6928F5EABD00E0C7AE /* Settings.storyboard in Resources */,
+				B2D641C42939103200718074 /* Settings.storyboard in Resources */,
 				B2E69B9828EDF5F9009B009D /* PhotoVideoPage.storyboard in Resources */,
 				B2CE6BBB28D2515600526D4B /* Main.storyboard in Resources */,
 			);
