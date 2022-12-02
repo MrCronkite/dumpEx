@@ -10,7 +10,7 @@ import UIKit
 class EmotionalConditionViewController: UIViewController {
     
     let indetifire = "keyCell"
-    let tableCellName = ["Эмоциональное состояние", "1212я", "Т12ты", "Фото Видео", "Помощь"]
+    let tableCellName = ["Эмоциональное состояние", "День 1", "День 2", "День 3", "День 4", "День 5","День 6","День 7","День 8", "День 9", "День 10"]
 
     @IBOutlet weak var tableContainer: UITableView!
     
