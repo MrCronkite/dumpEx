@@ -29,6 +29,7 @@ extension EmotionalConditionViewController: UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: indetifire, for: indexPath)
         
+        cell.textLabel?.textAlignment = .center
         cell.textLabel?.text = tableCellName[indexPath.row]
         
         return cell
