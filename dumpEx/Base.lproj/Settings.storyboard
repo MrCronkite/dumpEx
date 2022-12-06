@@ -107,7 +107,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ageStack" destination="s2q-Ri-A74" id="Omp-O8-B0z"/>
                         <outlet property="headerLabel" destination="wPp-tG-UKN" id="PPe-LV-dcb"/>
+                        <outlet property="nameStack" destination="bFh-8X-PAj" id="nw0-Us-Vdb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

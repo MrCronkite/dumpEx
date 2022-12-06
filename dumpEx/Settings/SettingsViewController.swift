@@ -12,8 +12,10 @@ class SettingsViewController: UIViewController {
    let myDatePicker: UIDatePicker = UIDatePicker()
     
     
-   @IBOutlet weak var headerLabel: UILabel!
+    @IBOutlet weak var ageStack: UIStackView!
+    @IBOutlet weak var headerLabel: UILabel!
   
+    @IBOutlet weak var nameStack: UIStackView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,11 +24,9 @@ class SettingsViewController: UIViewController {
         myDatePicker.timeZone = TimeZone.current
         myDatePicker.frame = CGRect(x: 0, y: 0, width: 250 , height: 150)
         
-
         
-
-  //        ageField.delegate = self
-//        expensesField.delegate = self
+        ageStack.layer.cornerRadius = 10
+        nameStack.layer.cornerRadius = 10
     }
     
   
