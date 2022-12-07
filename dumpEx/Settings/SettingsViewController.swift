@@ -25,6 +25,10 @@ class SettingsViewController: UIViewController {
         myDatePicker.frame = CGRect(x: 0, y: 0, width: 250 , height: 150)
         
         
+        
+        
+        
+        
         ageStack.layer.cornerRadius = 10
         nameStack.layer.cornerRadius = 10
     }
