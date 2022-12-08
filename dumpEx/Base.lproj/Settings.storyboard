@@ -92,17 +92,52 @@
                                     <constraint firstAttribute="height" constant="35" id="MXe-fZ-Ymx"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ZvD-zO-3io">
+                                <rect key="frame" x="61.666666666666657" y="283" width="270" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сколько примерно  тратите на девушку в день" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fi-xZ-wQA">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="15s-uq-eUG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="miD-cd-QxB">
+                                        <rect key="frame" x="152" y="0.0" width="106" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="cb5-xy-Kng"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uBQ-aa-x3b">
+                                        <rect key="frame" x="260" y="0.0" width="10" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="xPk-Uf-EPE"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="bH8-0c-7lC"/>
+                                    <constraint firstAttribute="height" constant="60" id="rhl-Oh-MeC"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EC8-oT-eEn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wPp-tG-UKN" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="7Q2-iA-EfK"/>
+                            <constraint firstItem="ZvD-zO-3io" firstAttribute="top" secondItem="s2q-Ri-A74" secondAttribute="bottom" constant="30" id="8VV-Jv-Aj1"/>
                             <constraint firstItem="wPp-tG-UKN" firstAttribute="top" secondItem="EC8-oT-eEn" secondAttribute="top" constant="30" id="Hdo-9W-Mvt"/>
                             <constraint firstItem="EC8-oT-eEn" firstAttribute="bottom" secondItem="5iq-eB-6Po" secondAttribute="bottom" constant="150" id="IgH-x1-Dnm"/>
                             <constraint firstItem="s2q-Ri-A74" firstAttribute="top" secondItem="bFh-8X-PAj" secondAttribute="bottom" constant="30" id="Rxd-xj-afP"/>
                             <constraint firstItem="bFh-8X-PAj" firstAttribute="top" secondItem="wPp-tG-UKN" secondAttribute="bottom" constant="40" id="TDh-mN-w2Q"/>
                             <constraint firstItem="s2q-Ri-A74" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="f5k-oS-zSJ"/>
                             <constraint firstItem="bFh-8X-PAj" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="hD2-o6-9e0"/>
+                            <constraint firstItem="ZvD-zO-3io" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="wFS-rZ-SvH"/>
                             <constraint firstItem="5iq-eB-6Po" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="yzf-1y-7wh"/>
                         </constraints>
                     </view>
