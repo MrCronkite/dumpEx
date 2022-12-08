@@ -29,16 +29,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bFh-8X-PAj">
-                                <rect key="frame" x="61.666666666666657" y="153" width="270" height="35"/>
+                                <rect key="frame" x="61.666666666666657" y="153" width="270" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Как вас зовут?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wp6-1M-As9">
-                                        <rect key="frame" x="0.0" y="8.6666666666666572" width="160" height="18"/>
+                                        <rect key="frame" x="0.0" y="11" width="160" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0s1-bl-IVS">
-                                        <rect key="frame" x="160" y="2.6666666666666572" width="100" height="30"/>
+                                        <rect key="frame" x="160" y="5" width="100" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="CyS-oc-FW9"/>
                                             <constraint firstAttribute="height" constant="30" id="eAa-eO-9Zi"/>
@@ -47,7 +47,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o4W-JN-1YT">
-                                        <rect key="frame" x="260" y="0.0" width="10" height="35"/>
+                                        <rect key="frame" x="260" y="0.0" width="10" height="40"/>
                                         <color key="backgroundColor" red="0.57640790939999997" green="0.2899071574" blue="0.56865078209999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="10" id="hjq-m1-1ll"/>
@@ -57,20 +57,20 @@
                                 <color key="backgroundColor" red="0.57734625120000005" green="0.29034762920000001" blue="0.57069865470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="270" id="JAf-Es-Mqv"/>
-                                    <constraint firstAttribute="height" constant="35" id="o59-fK-yfB"/>
+                                    <constraint firstAttribute="height" constant="40" id="o59-fK-yfB"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="s2q-Ri-A74">
-                                <rect key="frame" x="61.666666666666657" y="218" width="270" height="35"/>
+                                <rect key="frame" x="61.666666666666657" y="223" width="270" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сколько вам лет?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEd-GC-KGi">
-                                        <rect key="frame" x="0.0" y="8.6666666666666572" width="180" height="18"/>
+                                        <rect key="frame" x="0.0" y="11" width="180" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnQ-KJ-Ey1">
-                                        <rect key="frame" x="180" y="2.6666666666666572" width="60" height="30"/>
+                                        <rect key="frame" x="180" y="5" width="60" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="HCd-ck-ELs"/>
                                             <constraint firstAttribute="height" constant="30" id="Wzt-dA-eB6"/>
@@ -79,7 +79,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmh-We-icF">
-                                        <rect key="frame" x="240.00000000000003" y="0.0" width="29.999999999999972" height="35"/>
+                                        <rect key="frame" x="240.00000000000003" y="0.0" width="29.999999999999972" height="40"/>
                                         <color key="backgroundColor" red="0.57640790939999997" green="0.2899071574" blue="0.56865078209999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="c9H-Gw-bZG"/>
@@ -89,23 +89,23 @@
                                 <color key="backgroundColor" red="0.57640790939999997" green="0.2899071574" blue="0.56865078209999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="270" id="AwC-Fo-BSt"/>
-                                    <constraint firstAttribute="height" constant="35" id="MXe-fZ-Ymx"/>
+                                    <constraint firstAttribute="height" constant="40" id="MXe-fZ-Ymx"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZvD-zO-3io">
-                                <rect key="frame" x="61.666666666666657" y="283" width="270" height="60"/>
+                                <rect key="frame" x="61.666666666666657" y="293" width="270" height="65"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сколько примерно  тратите на девушку в день" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fi-xZ-wQA">
-                                        <rect key="frame" x="0.0" y="8.6666666666666856" width="150" height="43"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Сколько примерно  тратите на девушку в день" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fi-xZ-wQA">
+                                        <rect key="frame" x="0.0" y="18.333333333333314" width="185.66666666666666" height="28.666666666666671"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="15s-uq-eUG"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="15s-uq-eUG"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="miD-cd-QxB">
-                                        <rect key="frame" x="150" y="12.666666666666686" width="110" height="35"/>
+                                        <rect key="frame" x="185.66666666666669" y="15" width="74.333333333333314" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="cb5-xy-Kng"/>
                                         </constraints>
@@ -113,7 +113,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uBQ-aa-x3b">
-                                        <rect key="frame" x="260" y="0.0" width="10" height="60"/>
+                                        <rect key="frame" x="260" y="2.6666666666666856" width="10" height="60"/>
                                         <color key="backgroundColor" red="0.57734625120000005" green="0.29034762920000001" blue="0.57069865470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="10" id="xPk-Uf-EPE"/>
@@ -123,7 +123,7 @@
                                 <color key="backgroundColor" red="0.57640790939999997" green="0.2899071574" blue="0.56865078209999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="270" id="bH8-0c-7lC"/>
-                                    <constraint firstAttribute="height" constant="60" id="rhl-Oh-MeC"/>
+                                    <constraint firstAttribute="height" constant="65" id="rhl-Oh-MeC"/>
                                 </constraints>
                             </stackView>
                         </subviews>
