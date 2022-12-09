@@ -126,24 +126,39 @@
                                     <constraint firstAttribute="height" constant="65" id="rhl-Oh-MeC"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaP-2C-7jP">
-                                <rect key="frame" x="93" y="416" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UVc-A4-LTJ">
-                                <rect key="frame" x="263" y="409" width="10" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-f1-251">
-                                <rect key="frame" x="143" y="416" width="91" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eRT-fj-GQw">
+                                <rect key="frame" x="61.666666666666657" y="388" width="270" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Примерная дата расствания с девушкой" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaP-2C-7jP">
+                                        <rect key="frame" x="0.0" y="15.666666666666687" width="170" height="28.666666666666671"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="170" id="IXp-3L-KQ0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-f1-251">
+                                        <rect key="frame" x="184.66666666666669" y="13" width="50.666666666666657" height="34.333333333333336"/>
+                                        <color key="backgroundColor" red="0.39515596629999999" green="0.46143686769999998" blue="0.67453408240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="0.03563332474" green="0.0080256559310000006" blue="0.2217839559" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="calendar" catalog="system"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UVc-A4-LTJ">
+                                        <rect key="frame" x="250" y="0.0" width="20" height="60"/>
+                                        <color key="backgroundColor" red="0.57734625120000005" green="0.29034762920000001" blue="0.57069865470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="jfV-Ws-kJn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.57640790939999997" green="0.2899071574" blue="0.56865078209999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="9Sk-xe-hQJ"/>
+                                    <constraint firstAttribute="height" constant="60" id="Udg-0c-FK5"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EC8-oT-eEn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -154,8 +169,10 @@
                             <constraint firstItem="EC8-oT-eEn" firstAttribute="bottom" secondItem="5iq-eB-6Po" secondAttribute="bottom" constant="150" id="IgH-x1-Dnm"/>
                             <constraint firstItem="s2q-Ri-A74" firstAttribute="top" secondItem="bFh-8X-PAj" secondAttribute="bottom" constant="30" id="Rxd-xj-afP"/>
                             <constraint firstItem="bFh-8X-PAj" firstAttribute="top" secondItem="wPp-tG-UKN" secondAttribute="bottom" constant="40" id="TDh-mN-w2Q"/>
+                            <constraint firstItem="eRT-fj-GQw" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Tn9-Da-wso"/>
                             <constraint firstItem="s2q-Ri-A74" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="f5k-oS-zSJ"/>
                             <constraint firstItem="bFh-8X-PAj" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="hD2-o6-9e0"/>
+                            <constraint firstItem="eRT-fj-GQw" firstAttribute="top" secondItem="ZvD-zO-3io" secondAttribute="bottom" constant="30" id="qD9-Kh-xhr"/>
                             <constraint firstItem="ZvD-zO-3io" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="wFS-rZ-SvH"/>
                             <constraint firstItem="5iq-eB-6Po" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="yzf-1y-7wh"/>
                         </constraints>
@@ -172,6 +189,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
