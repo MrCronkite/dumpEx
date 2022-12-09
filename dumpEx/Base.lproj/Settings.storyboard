@@ -126,30 +126,30 @@
                                     <constraint firstAttribute="height" constant="65" id="rhl-Oh-MeC"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eRT-fj-GQw">
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="eRT-fj-GQw">
                                 <rect key="frame" x="61.666666666666657" y="388" width="270" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Примерная дата расствания с девушкой" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaP-2C-7jP">
-                                        <rect key="frame" x="0.0" y="15.666666666666687" width="170" height="28.666666666666671"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="170" id="IXp-3L-KQ0"/>
-                                        </constraints>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Примерная дата расствания с девушкой" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="170" translatesAutoresizingMaskIntoConstraints="NO" id="AaP-2C-7jP">
+                                        <rect key="frame" x="0.0" y="15.666666666666687" width="172" height="28.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-f1-251">
-                                        <rect key="frame" x="184.66666666666669" y="13" width="50.666666666666657" height="34.333333333333336"/>
-                                        <color key="backgroundColor" red="0.39515596629999999" green="0.46143686769999998" blue="0.67453408240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <rect key="frame" x="181" y="13" width="70" height="34.333333333333336"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="1UM-MS-IH2"/>
+                                        </constraints>
                                         <color key="tintColor" red="0.03563332474" green="0.0080256559310000006" blue="0.2217839559" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="calendar" catalog="system"/>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UVc-A4-LTJ">
-                                        <rect key="frame" x="250" y="0.0" width="20" height="60"/>
+                                        <rect key="frame" x="260" y="0.0" width="10" height="60"/>
                                         <color key="backgroundColor" red="0.57734625120000005" green="0.29034762920000001" blue="0.57069865470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="jfV-Ws-kJn"/>
+                                            <constraint firstAttribute="width" constant="10" id="jfV-Ws-kJn"/>
                                         </constraints>
                                     </view>
                                 </subviews>
