@@ -12,9 +12,11 @@ class SettingsViewController: UIViewController {
    let myDatePicker: UIDatePicker = UIDatePicker()
     
     
+    @IBOutlet weak var relationsStack: UIStackView!
+    @IBOutlet weak var moneyStack: UIStackView!
     @IBOutlet weak var ageStack: UIStackView!
     @IBOutlet weak var headerLabel: UILabel!
-  
+    @IBOutlet weak var dataStack: UIStackView!
     @IBOutlet weak var nameStack: UIStackView!
     override func viewDidLoad() {
         super.viewDidLoad()

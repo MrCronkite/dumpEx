@@ -210,8 +210,11 @@
                     </view>
                     <connections>
                         <outlet property="ageStack" destination="s2q-Ri-A74" id="Omp-O8-B0z"/>
+                        <outlet property="dataStack" destination="eRT-fj-GQw" id="9Tf-fA-9Zk"/>
                         <outlet property="headerLabel" destination="wPp-tG-UKN" id="PPe-LV-dcb"/>
+                        <outlet property="moneyStack" destination="ZvD-zO-3io" id="FqF-U5-tfA"/>
                         <outlet property="nameStack" destination="bFh-8X-PAj" id="nw0-Us-Vdb"/>
+                        <outlet property="relationsStack" destination="WFx-dE-n2F" id="1Mz-of-ljX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
