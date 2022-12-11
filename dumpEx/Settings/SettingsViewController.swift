@@ -25,11 +25,7 @@ class SettingsViewController: UIViewController {
         myDatePicker.preferredDatePickerStyle = .wheels
         myDatePicker.timeZone = TimeZone.current
         myDatePicker.frame = CGRect(x: 0, y: 0, width: 250 , height: 150)
-        
-        
-        
-        
-        
+    
         
         ageStack.layer.cornerRadius = 10
         nameStack.layer.cornerRadius = 10
@@ -46,9 +42,6 @@ class SettingsViewController: UIViewController {
 //        dismiss(animated: true, completion: nil)
 //    }
     
-//    @IBAction func currencyActionField(_ sender: Any) {
-//        print("выбрать цену")
-//    }
 //
     @IBAction func setData(_ sender: Any) {
         let alertController = UIAlertController(title: "\n\n\n\n\n\n\n\n", message: nil, preferredStyle: .actionSheet)
