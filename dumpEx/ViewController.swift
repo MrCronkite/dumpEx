@@ -29,7 +29,6 @@ class ViewController: UIViewController {
         stackViewMoney.layer.cornerRadius = 10
         stackViewMoney.backgroundColor = #colorLiteral(red: 0.3551723361, green: 0.3126738369, blue: 0.6863505244, alpha: 1)
         
-        
         stackViewTest.layer.cornerRadius = 10
         stackViewTest.backgroundColor =  #colorLiteral(red: 0.3551723361, green: 0.3126738369, blue: 0.6863505244, alpha: 1)
         
@@ -50,7 +49,6 @@ class ViewController: UIViewController {
 
 
 }
-
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
