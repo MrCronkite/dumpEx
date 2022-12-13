@@ -40,7 +40,6 @@ class ViewController: UIViewController {
         
     }
     
-    
     @IBAction func openSettingsView(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Settings", bundle:  nil)
         guard  let settingsVC = storyboard.instantiateViewController(withIdentifier: "Settings") as? SettingsViewController else { return}
