@@ -30,9 +30,7 @@ class SettingsViewController: UIViewController {
         ageStack.layer.cornerRadius = 10
         nameStack.layer.cornerRadius = 10
     }
-    
-  
-    
+
 
 //    @IBAction func saveSettings(_ sender: Any) {
 //        print(myDatePicker.date)
