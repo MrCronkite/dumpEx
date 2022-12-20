@@ -29,17 +29,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="MNV-Qn-OyZ">
-                                <rect key="frame" x="46.666666666666657" y="143" width="300" height="370"/>
+                                <rect key="frame" x="20" y="143" width="353" height="370"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kmr-FM-4UT">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="3"/>
+                                        <rect key="frame" x="26.666666666666657" y="0.0" width="300" height="3"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="3" id="juz-AO-qGM"/>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bFh-8X-PAj">
-                                        <rect key="frame" x="15" y="22.666666666666657" width="270" height="40"/>
+                                        <rect key="frame" x="41.666666666666657" y="22.666666666666657" width="270" height="40"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Как вас зовут?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wp6-1M-As9">
                                                 <rect key="frame" x="0.0" y="11" width="160" height="18"/>
@@ -71,7 +71,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="s2q-Ri-A74">
-                                        <rect key="frame" x="15" y="82.333333333333343" width="270" height="40"/>
+                                        <rect key="frame" x="41.666666666666657" y="82.333333333333343" width="270" height="40"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сколько вам лет?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEd-GC-KGi">
                                                 <rect key="frame" x="0.0" y="11" width="180" height="18"/>
@@ -103,7 +103,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZvD-zO-3io">
-                                        <rect key="frame" x="15" y="142" width="270" height="65"/>
+                                        <rect key="frame" x="41.666666666666657" y="142" width="270" height="65"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Сколько примерно  тратите на девушку в день" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fi-xZ-wQA">
                                                 <rect key="frame" x="0.0" y="18.333333333333314" width="185.66666666666666" height="28.666666666666671"/>
@@ -137,7 +137,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WFx-dE-n2F">
-                                        <rect key="frame" x="15" y="226.66666666666669" width="270" height="40"/>
+                                        <rect key="frame" x="41.666666666666657" y="226.66666666666669" width="270" height="40"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вы сейчас в отношениях?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="170" translatesAutoresizingMaskIntoConstraints="NO" id="rbM-Z1-CcY">
                                                 <rect key="frame" x="0.0" y="12.333333333333314" width="170" height="15.666666666666664"/>
@@ -166,7 +166,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="eRT-fj-GQw">
-                                        <rect key="frame" x="15" y="286.33333333333331" width="270" height="60"/>
+                                        <rect key="frame" x="41.666666666666657" y="286.33333333333331" width="270" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Примерная дата расствания с девушкой" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="170" translatesAutoresizingMaskIntoConstraints="NO" id="AaP-2C-7jP">
                                                 <rect key="frame" x="0.0" y="15.666666666666687" width="170" height="28.666666666666671"/>
@@ -199,7 +199,7 @@
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xmk-mR-a7q">
-                                        <rect key="frame" x="0.0" y="366" width="300" height="4"/>
+                                        <rect key="frame" x="26.666666666666657" y="366" width="300" height="4"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="4" id="XSW-nV-TaT"/>
@@ -208,7 +208,6 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="f3O-IV-9wy"/>
                                     <constraint firstAttribute="height" constant="370" id="huM-hM-jSo"/>
                                 </constraints>
                             </stackView>
@@ -220,7 +219,8 @@
                             <constraint firstItem="wPp-tG-UKN" firstAttribute="top" secondItem="EC8-oT-eEn" secondAttribute="top" constant="30" id="Hdo-9W-Mvt"/>
                             <constraint firstItem="EC8-oT-eEn" firstAttribute="bottom" secondItem="5iq-eB-6Po" secondAttribute="bottom" constant="150" id="IgH-x1-Dnm"/>
                             <constraint firstItem="MNV-Qn-OyZ" firstAttribute="top" secondItem="wPp-tG-UKN" secondAttribute="bottom" constant="30" id="g2U-AQ-qMo"/>
-                            <constraint firstItem="MNV-Qn-OyZ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="r2d-6Y-nnc"/>
+                            <constraint firstItem="EC8-oT-eEn" firstAttribute="trailing" secondItem="MNV-Qn-OyZ" secondAttribute="trailing" constant="20" id="o7D-35-4tH"/>
+                            <constraint firstItem="MNV-Qn-OyZ" firstAttribute="leading" secondItem="EC8-oT-eEn" secondAttribute="leading" constant="20" id="vdp-Ii-hYv"/>
                             <constraint firstItem="5iq-eB-6Po" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="yzf-1y-7wh"/>
                         </constraints>
                     </view>
