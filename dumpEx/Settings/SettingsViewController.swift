@@ -11,13 +11,18 @@ class SettingsViewController: UIViewController {
     
    let myDatePicker: UIDatePicker = UIDatePicker()
     
+    @IBOutlet weak var headerLabel: UILabel!
+   
     
+    @IBOutlet weak var saveButton: UIButton!
+    
+    @IBOutlet weak var mainStack: UIStackView!
     @IBOutlet weak var relationsStack: UIStackView!
     @IBOutlet weak var moneyStack: UIStackView!
     @IBOutlet weak var ageStack: UIStackView!
-    @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var dataStack: UIStackView!
     @IBOutlet weak var nameStack: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,9 +31,14 @@ class SettingsViewController: UIViewController {
         myDatePicker.timeZone = TimeZone.current
         myDatePicker.frame = CGRect(x: 0, y: 0, width: 250 , height: 150)
     
-        
+        mainStack.layer.cornerRadius = 10
         ageStack.layer.cornerRadius = 10
         nameStack.layer.cornerRadius = 10
+        dataStack.layer.cornerRadius = 10
+        moneyStack.layer.cornerRadius = 10
+        relationsStack.layer.cornerRadius = 10
+        
+        saveButton.layer.cornerRadius = 10
     }
 
 
